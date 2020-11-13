@@ -4,13 +4,15 @@ const { gql } = require("apollo-server-express");
 module.exports = gql`
   type Movie {
     name: String!
-    year: Int!
-    rating: Int!
-    language: Int!
+    genres: String!
+    rating: Float!
+    language: String!
   }
 
   type Query {
     hello: String!
-    movie: [Movie!]!
+    movies: [Movie!]!
+    movie(name: String! ): Movie!
+    moviesList(sorted: Boolean! ): [Movie!]!
   }
 `;
