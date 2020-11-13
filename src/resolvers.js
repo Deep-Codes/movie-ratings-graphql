@@ -21,8 +21,17 @@ module.exports =  {
         let sortedArr = Movies.sort((b,a)=> a.rating - b.rating  )
         return sortedArr
       } else{
-        return Moviesm
+        return Movies;
       }
+    },
+    moviesGenres(root, args, context){
+      const { genre } = args;
+      if(!genre || genre === " " ) return null ; 
+      const genreMovies = Movies.filter((movie) => {
+        return movie.genres.includes(genre)
+      })
+      if(!genreMovies) return null;
+      return genreMovies
     }
   }
 }

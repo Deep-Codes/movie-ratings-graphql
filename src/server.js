@@ -3,7 +3,7 @@ const {ApolloServer , gql } = require('apollo-server-express');
 const PORT = 5000;
 
 const resolvers = require('./resolvers')
-const typeDefs = require('./schema')
+const typeDefs = require('./schema.graphql')
 
 const server = new ApolloServer({ 
   typeDefs ,

@@ -4,7 +4,7 @@ const { gql } = require("apollo-server-express");
 module.exports = gql`
   type Movie {
     name: String!
-    genres: String!
+    genres: [String!]
     rating: Float!
     language: String!
   }
@@ -14,5 +14,6 @@ module.exports = gql`
     movies: [Movie!]!
     movie(name: String! ): Movie!
     moviesList(sorted: Boolean! ): [Movie!]!
+    moviesGenres(genre: String! ): [Movie!]!
   }
 `;

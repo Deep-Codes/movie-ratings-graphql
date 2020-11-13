@@ -1,7 +1,7 @@
 module.exports.Movies=  [
   {
     "name":"Spider-Man: Into the Spider-Verse",
-    "genres":"Animation , Action",
+    "genres":["Animation" ," Action"],
     "language":"English",
     "rating":9.5,
     "Links":"https://en.wikipedia.org/wiki/Spider-Man:_Into_the_Spider-Verse",
@@ -9,7 +9,7 @@ module.exports.Movies=  [
   },
   {
     "name":"The Lion King (2019)",
-    "genres":"Animation , Family",
+    "genres":['Animation' , 'Family'],
     "language":"English",
     "rating":6.6,
     "Links":"https://en.wikipedia.org/wiki/The_Lion_King_(2019_film)",
@@ -17,7 +17,7 @@ module.exports.Movies=  [
   },
   {
     "name":"Piper",
-    "genres":"Animation , Short-Film",
+    "genres":['Animation' , 'Short-Film'],
     "language":"Silent-Film",
     "rating":8.8,
     "Links":"https://en.wikipedia.org/wiki/Piper_(film)",
@@ -25,7 +25,7 @@ module.exports.Movies=  [
   },
   {
     "name":"Passengers (2016)",
-    "genres":"Sci-Fi , Romance",
+    "genres":["Sci-Fi" , "Romance"],
     "language":"English",
     "rating":7.7,
     "Links":"https://en.wikipedia.org/wiki/Passengers_(2016_film)",
@@ -33,7 +33,7 @@ module.exports.Movies=  [
   },
   {
     "name":"The Zookeeper's Wife",
-    "genres":"War, Drama",
+    "genres":["War", "Drama"],
     "language":"English",
     "rating":6.3,
     "Links":"https://en.wikipedia.org/wiki/The_Zookeeper%27s_Wife_(film)#:~:text=The%20Zookeeper",
@@ -41,7 +41,7 @@ module.exports.Movies=  [
   },
   {
     "name":"Inception",
-    "genres":"Sci-Fi, Thriller",
+    "genres":["Sci-Fi", "Thriller"],
     "language":"English",
     "rating":9.5,
     "Links":"https://en.wikipedia.org/wiki/Inception",
@@ -49,7 +49,7 @@ module.exports.Movies=  [
   },
   {
     "name":"Hugo",
-    "genres":"Adventure , Fantasy",
+    "genres":["Adventure" , "Fantasy"],
     "language":"English",
     "rating":8.5,
     "Links":"https://en.wikipedia.org/wiki/Hugo_(film)",
@@ -57,7 +57,7 @@ module.exports.Movies=  [
   },
   {
     "name":"Tumbadd",
-    "genres":"Horror , Drama",
+    "genres":["Horror" , "Drama"],
     "language":"Hindi+",
     "rating":9.1,
     "Links":"https://en.wikipedia.org/wiki/Tumbbad",
@@ -65,7 +65,7 @@ module.exports.Movies=  [
   },
   {
     "name":"Wave",
-    "genres":"Disaster , Thriller",
+    "genres":["Disaster" , "Thriller"],
     "language":"Norwegian",
     "rating":8.7,
     "Links":"https://en.wikipedia.org/wiki/The_Wave_(2015_film)",
@@ -73,7 +73,7 @@ module.exports.Movies=  [
   },
   {
     "name":"The Platform",
-    "genres":"Sci-fi , Horror , Thriller",
+    "genres":["Sci-fi" , "Horror" , "Thriller"],
     "language":"Spanish",
     "rating":9.6,
     "Links":"https://en.wikipedia.org/wiki/The_Platform_(film)",
@@ -81,7 +81,7 @@ module.exports.Movies=  [
   },
   {
     "name":"The Quake",
-    "genres":"Disaster , Thriller",
+    "genres":["Disaster" , "Thriller"],
     "language":"Norwegian",
     "rating":7.4,
     "Links":"https://en.wikipedia.org/wiki/The_Quake_(film)",
@@ -89,7 +89,7 @@ module.exports.Movies=  [
   },
   {
     "name":"Train to Busan",
-    "genres":"Horror , Thriller",
+    "genres":["Horror" , "Thriller"],
     "language":"Korean",
     "rating":9.1,
     "Links":"https://en.wikipedia.org/wiki/Train_to_Busan",
@@ -97,7 +97,7 @@ module.exports.Movies=  [
   },
   {
     "name":"Now You See Me",
-    "genres":"Mystery , Thriller",
+    "genres":["Mystery" , "Thriller"],
     "language":"English",
     "rating":8.5,
     "Links":"https://en.wikipedia.org/wiki/Now_You_See_Me_(film)",
@@ -105,7 +105,7 @@ module.exports.Movies=  [
   },
   {
     "name":"District 9",
-    "genres":"Sci-Fi , Action",
+    "genres":["Sci-Fi" , "Action"],
     "language":"English",
     "rating":9.1,
     "Links":"https://en.wikipedia.org/wiki/District_9",
@@ -113,7 +113,7 @@ module.exports.Movies=  [
   },
   {
     "name":"Argo",
-    "genres":"Drama,Thriller",
+    "genres":["Drama","Thriller"],
     "language":"English",
     "rating":8.9,
     "Links":"https://en.wikipedia.org/wiki/Argo_(2012_film)",
@@ -121,7 +121,7 @@ module.exports.Movies=  [
   },
   {
     "name":"Ocean's 11",
-    "genres":"Comedy ,Heist",
+    "genres":["Comedy" ,"Heist"],
     "language":"English",
     "rating":6.9,
     "Links":"https://en.wikipedia.org/wiki/Ocean%27s_Eleven",
